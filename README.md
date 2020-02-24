@@ -27,4 +27,7 @@ Easy! This should give you a linux prompt for a user called "devuser" with passw
 4. Edit your .zshrc, and change the theme (I like agnoster)
 5. Optionally capture it using docker commit (see https://winsmarts.com/snapshot-a-docker-container-20df59bbd473)
 
+# To mount the local directory as working directory /hostdir in container,
+1. docker run --rm -it -v <host directory>:/hostdir ubuntu-dev
+
 Rock on!
