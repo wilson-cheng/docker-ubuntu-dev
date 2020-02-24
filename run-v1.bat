@@ -1,0 +1,1 @@
+docker run --rm -it -p 3000:3000 -p 8080:8080 -p 8081:8081 -v "d:\wilson cheng\dockerdir":/hostdir ubuntu-dev-v1

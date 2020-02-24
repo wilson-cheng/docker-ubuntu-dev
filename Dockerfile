@@ -2,7 +2,7 @@ FROM ubuntu:18.04
 MAINTAINER "Wilson Cheng"
 
 RUN apt-get update && \
-    apt-get install -y sudo curl git-core gnupg linuxbrew-wrapper locales nodejs zsh wget nano nodejs npm fonts-powerline && \
+    apt-get install -y sudo curl git-core gnupg linuxbrew-wrapper locales nodejs zsh wget nano nodejs npm fonts-powerline vim && \
     locale-gen en_US.UTF-8 && \
     adduser --quiet --disabled-password --shell /bin/zsh --home /home/devuser --gecos "User" devuser && \
     echo "devuser:p@ssword1" | chpasswd &&  usermod -aG sudo devuser

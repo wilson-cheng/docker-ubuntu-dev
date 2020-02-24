@@ -1,1 +1,1 @@
-docker run --rm -it ubuntu-dev
+docker run --rm -it -v <host directory>:/hostdir ubuntu-dev
